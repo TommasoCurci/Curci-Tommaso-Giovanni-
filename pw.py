@@ -116,7 +116,7 @@ def calcola_giorni_di_produzione_complessivi():
 
  #ciclo principale della simulazione dove viene eseguito il for
 #per ogni prodotto vengono calcolati tempi, giorni di produzione e vengono visualizzati tutti i dati della simulazione
-#elabora tutti i dati che abbiamo creato per poter stampare e simulare il processo produttivo     
+#elabora tutti i dati che ho creato per poter stampare e simulare il processo produttivo     
 for prodotto in prodotti:
    tempo_prodotto = calcola_tempo_prodotto(prodotto, lotto_produzione[prodotto])
    giorni = calcola_giorni_di_produzione_prodotto(prodotto, lotto_produzione[prodotto])
